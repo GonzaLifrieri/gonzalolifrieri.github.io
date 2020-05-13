@@ -57,6 +57,7 @@ body{
 #primary-title{
   font-size: 2em;
   font-weight: normal;
+  text-transform: uppercase;
   margin: 0.3125em 0;
   background-color: #e3e3e3;
   position: relative;
@@ -243,6 +244,9 @@ ul.tabs li.current{
   color: #222;
   border-bottom:2px solid gray;
   font-weight:650;
+}
+#education ul li{
+  list-style-type: circle;
 }
 
 
