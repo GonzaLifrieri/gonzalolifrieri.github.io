@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 html{
   height: 100%;
   width: 100%;
@@ -54,6 +54,81 @@ body{
   padding-top: 15%;
   text-align: center;
 }
+#primary-title{
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0.3125em 0;
+  background-color: #e3e3e3;
+  position: relative;
+  display: inline-block;
+  padding: 2px 10px 2px 10px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.second-title{
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0.3125em 0;
+    background-color: #e3e3e3;
+    position: relative;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    border-radius: 5px;
+}
+.skill-title{
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 0.3125em 0;
+  background-color: transparent;
+  position: relative;
+  padding: 0 10px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 2%;
+
+}
+.tag-skill{
+  background: #5f6769;
+  border-radius: 3px 0 0 3px;
+  color: white;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+.tag-skill::before {
+  background: white;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag-skill::after {
+  background: #5f6769;
+  border-bottom: 13px solid #f1f3f4;
+  border-left: 10px solid #5f6769;
+  border-top: 13px solid #f1f3f4;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 #contacts{
   margin-bottom: 33.5px;
   margin-top: 5%;
@@ -94,13 +169,13 @@ p{
 
 #tab-1{
   margin:5% ;
-  margin-top: 6%;
+  margin-top: 9%;
   background-color:#f1f3f4;
   font-family: 'Roboto', sans-serif;
 }
 #tab-2{
   margin: 5%;
-  margin-top: 6%;
+  margin-top: 9%;
   width: 90%;
   height: 90%;
   background-color:#f1f3f4;
@@ -214,18 +289,18 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   #profile_picture{
-    border: 1px solid white;
-    border-radius: 20%;
+    border-radius: 100%;
     padding: 0.5%;
     height: 200px;
-    width: 150px;
+    width: 200px;
     margin-bottom: 0.3%;
   }
   #header{
     width: auto;
     height: auto;
+    padding-right: 20%;
   }
 }
 

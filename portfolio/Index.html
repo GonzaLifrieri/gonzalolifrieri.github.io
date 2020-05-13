@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="shortcut icon" type="image/x-icon" href="img/g-clamp.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="img/gi.png"/>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous">
@@ -65,11 +65,9 @@
     </div>
     <div id="right-container-below">
       <div id="tab-1" class="tab-content current">
-        <h2 class="alert alert-dark">
-          Why I rock <img id="rock" src="img/rock.png" alt="rock on">
-        </h2>
-        <h3 style="text-indent: 0; margin-bottom: 15px;font-style: italic; font-weight:normal; color: #555;">
+        <h2 id="primary-title">
           A brief history of Tech & Me
+        </h2>
         </h3>
         <p>
           I'm a engineering student at UTN.BA. 
@@ -82,57 +80,38 @@
               I might have been a filmmaker or a basketball player,
                but as it is I do these things on the side. -->
         </p>
-        <h4 class="mt- alert alert-dark">Skills</h4>
-      <div id="skilltable" style="display: block;">
-        <table>
-            <tbody><tr>
-                <td class="ld">
-                    <span style="font-style:italic">Front-end</span>
-                </td>
-                <td>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3 &amp; BootsTrap 4</li>
-                        <li>Javascript, &amp; JQuery</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-              <td class="ld">Back-End</td>
-              <td>
-                  <ul>
-                      <li>Node.js &amp; Express</li>
-                      <li>MySQL</li>
-                      <li>Ajax</li>
-                  </ul>
-              </td>
-          </tr>
-            <tr>
-                <td class="ld">General Programming &amp; Scripting</td>
-                <td>
-                    <ul>
-                        <li>Java</li>
-                        <li>C++ &amp; C#</li>
-                        <li>Haskell</li>
-                        <li>OOP</li>
-                    </ul>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="ld">Useful Knowledge</td>
-                <td>
-                    <ul>
-                        <li>Git</li>
-                        <li>Design</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody></table>
+      <h4 class="second-title">Skills</h4>
+      <div class="skilltable" style="display: block;">
+        <h4 class="skill-title">What I use on the Front-End</h4>
+          <span class="tag-skill">Javascript</span>
+          <span class="tag-skill">HTML5</span>
+          <span class="tag-skill">CSS3</span>
+          <span class="tag-skill">JQuery</span>
+          <span class="tag-skill">BootsTrap 4</span>
+          <hr>
+        <h4 class="skill-title">What I use on the Back-End</h4>
+          <span class="tag-skill">Node.js</span>
+          <span class="tag-skill">MySQL</span>
+          <span class="tag-skill">Express</span>
+          <span class="tag-skill">Ajax</span>
+        <hr>
+        <h4 class="skill-title">Useful Knowledge</h4>
+          <span class="tag-skill">Git</span>
+          <span class="tag-skill">Design</span>
+          <span class="tag-skill">OOP</span>
+          <span class="tag-skill">Haskell</span>
+    </div>
+    <div id="education">
+      <h4 class="second-title">Education</h4>
+      <ul>
+        <li>Web Development - Codecademy & Udemy</li>
+        <li>Full Stack Web Developer - Acamica</li>
+        <li>Systems Engineering - UTN.FRBA - In progress</li>
+      </ul>
     </div>
     </div>
     <div id="tab-2" class="tab-content" class="container-fluid">
-        <h2 class="alert alert-dark" style="font-style: oblique;">Projects &amp; Experience</h2>
+        <h2  id="primary-title">Projects &amp; Experience</h2>
         <p style="text-indent: 0; margin-bottom: 5px;font-style: italic; font-weight:normal; color: #555;">More projects coming. For now, check my github or email me.</p>
         <hr>
       <div id="showProjects">

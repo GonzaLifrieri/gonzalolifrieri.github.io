@@ -531,8 +531,10 @@ section {
   background: transparent;
   color: #bdbdbd;
   transition: all 0.5s ease 0s;
-  
- 
+}
+#contactButton a{
+  text-decoration: none;
+  color: #bdbdbd;
 }
 #contactButton:hover{
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
