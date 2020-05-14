@@ -158,11 +158,6 @@ p{
   z-index: 1;
   background-color: white;
 }
-
-#rock{
-  height: 30px;
-  width: 30px;
-}
 #about{
   margin: 10%;
   margin-top: 20px;
@@ -296,6 +291,7 @@ html{
 h4{
   font-size: 1rem;
 }
+
 body{
   display: inline-block;
   width: 100%;
@@ -317,6 +313,9 @@ position: absolute;
   }
 #introduction{
 padding-top: 4%;
+}
+#right-container{
+  width: 100%;
 }
 #primary-title{
 }
